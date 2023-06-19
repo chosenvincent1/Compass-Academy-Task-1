@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary: #FF6464;
+    --secondary: #00A8CC;
+    --dark: #21243D;
+    --light: #8695A4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Heebo', sans-serif;
+}
+
+.nav--parent--container {
+    padding: 28px 40px;
+    margin-bottom: 120px;
+}
+
+.nav--child--container {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.nav--items {
+    margin:  0px 24px;
+}
+
+.nav--items > a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.landing--page--container {
+    display: flex;
+    padding: 0px 126px;
+    margin-bottom: 50px;
+}
+
+.landing--text--container {
+    width: 100%;
+    margin-right: 50px;
+    color: var(--dark);
+}
+.landing--text--container > h1 {
+    font-size: 44px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-bottom: 40px
+}
+.landing--text--container > p {
+    font-size: 16px;
+    line-height: 23.5px;
+    font-weight: 400;
+    margin-bottom: 38px
+}
+.landing--text--container > button {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.38px;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 2px;
+    width: 208px;
+    height: 47px;
+}
+
+.landing--image--container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* RECENT POST SECTION */
+.recent--post--container {
+    background-color: #EDF7FA;
+    padding: 25px 50px;
+}
+
+.recent--post--text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.recent--post {
+    font-size: 38px;
+    font-weight: 400;
+    color: var(--dark);
+}
+.view--all {
+    color: var(--secondary);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.post--card--container {
+    display: flex;
+    justify-content: space-between;
+}
+.post--card {
+    background-color: #FFFFFF;
+    color: var(--dark);
+    max-width: 400px;
+    padding: 24px;
+    border-radius: 4px;
+}
+.post--card > h2 {
+    margin-bottom: 15px;
+    font-size: 26px;
+    font-weight: 700;
+}
+.post--date--container {
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.date {
+    border-right: 1px solid black;
+    padding-right: 50px;
+}
+.topic {
+    padding-left: 50px;
+}
+.post--text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
