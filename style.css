@@ -15,10 +15,16 @@
 body {
     background-color: #FFFFFF;
     font-family: 'Heebo', sans-serif;
+    height: 100vh;
+    /* width: 100vw; */
 }
 .nav--parent--container {
+    width: 100%;
     padding: 38px 40px;
     margin-bottom: 100px;
+}
+.nav--parent--container > img {
+    display: none;
 }
 .nav--child--container {
     display: flex;
@@ -56,7 +62,7 @@ body {
     font-size: 16px;
     line-height: 23.5px;
     font-weight: 400;
-    margin-bottom: 38px
+    margin-bottom: 38px;
 }
 .landing--text--container > button {
     color: #FFFFFF;
@@ -201,4 +207,120 @@ body {
     font-size: 14px;
     font-weight: 400;
     text-align: center;
+}
+
+
+@media screen and (max-width: 375px){
+    .nav--parent--container {
+        display: flex;
+        justify-content: flex-end;
+        padding: 29px 10px;
+        margin-bottom: 33px;
+    }
+    .nav--parent--container > img {
+        display: block;
+        cursor: pointer;
+    }
+    .nav--child--container {
+        display: none;
+    }
+
+    /* LANDING PAGE SECTION */
+    .landing--page--container {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0px 24px;
+        margin-bottom: 50px;
+    }
+    .landing--text--container {
+        margin-right: 0px;
+        text-align: center;
+    }
+    .landing--text--container > h1 {
+        font-size: 32px;
+        margin-bottom: 20px
+    }
+    .landing--text--container > p {
+        margin-bottom: 27px;
+    }
+    .landing--image--container {
+        margin-bottom: 43px;
+    }
+
+
+    /* RECENT POST SECTION */
+    .recent--post--container {
+        background-color: #EDF7FA;
+        padding: 25px 10px;
+    }
+    .recent--post--text {
+        display: flex;
+        justify-content: center;
+    }
+    .recent--post {
+        text-align: center;
+        font-size: 18px;
+    }
+    .view--all {
+        display: none;
+    }
+    .post--card--container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .post--card {
+        padding: 19px;
+        margin-bottom: 17px;
+    }
+    .post--card > h2 {
+        margin-bottom: 12px;
+        font-size: 22px;
+    }
+    .post--date--container {
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+    .date {
+        padding-right: 24px;
+    }
+    .topic {
+        padding-left: 24px;
+    }
+
+
+    /* FEATURED WORKS SECTION */
+    .featured--works--container {
+        padding: 25px 10px;
+    }
+    .featured--works--container > h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+    .featured--text--img--container {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 17px;
+    }
+    .featured--img--container {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .featured--img--container > img {
+        width: 100%;
+    }
+    .featured--text--container > h2 {
+        font-size: 24px;
+    }
+    .date-text-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .date-text-container > .title {
+        font-size: 16px;
+    }
+    .featured--text--container > p {
+        font-size: 16px;
+    }
 }
