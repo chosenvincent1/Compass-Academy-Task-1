@@ -12,27 +12,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background-color: #E5E5E5;
     font-family: 'Heebo', sans-serif;
 }
-
 .nav--parent--container {
-    padding: 28px 40px;
-    margin-bottom: 120px;
+    padding: 38px 40px;
+    margin-bottom: 100px;
 }
-
 .nav--child--container {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
 }
-
 .nav--items {
-    margin:  0px 24px;
+    margin:  0px 38px;
 }
-
 .nav--items > a {
     text-decoration: none;
     font-size: 20px;
@@ -40,12 +35,12 @@ body {
     color: #000000;
 }
 
+/* LANDING PAGE SECTION */
 .landing--page--container {
     display: flex;
     padding: 0px 126px;
     margin-bottom: 50px;
 }
-
 .landing--text--container {
     width: 100%;
     margin-right: 50px;
@@ -74,7 +69,6 @@ body {
     width: 208px;
     height: 47px;
 }
-
 .landing--image--container {
     width: 100%;
     display: flex;
@@ -87,7 +81,6 @@ body {
     background-color: #EDF7FA;
     padding: 25px 50px;
 }
-
 .recent--post--text {
     display: flex;
     justify-content: space-between;
@@ -103,7 +96,6 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
-
 .post--card--container {
     display: flex;
     justify-content: space-between;
@@ -138,3 +130,53 @@ body {
     font-weight: 400;
 }
 
+
+/* FEATURED WORKS SECTION */
+.featured--works--container {
+    padding: 25px 50px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.featured--works--container > h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--dark);
+}
+.featured--text--img--container {
+    display: flex;
+    margin-bottom: 48px;
+}
+.featured--img--container {
+    margin-right: 80px;
+}
+.featured--text--container > h2 {
+    color: var(--dark);
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+.date-text-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.date-text-container > .date {
+    background-color: #142850;
+    border-radius: 15px;
+    padding: 5px 25px;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #FFFFFF; 
+}
+.date-text-container > .title {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--light); 
+}
+.featured--text--container > p {
+    font-size: 16px;
+    color: var(--dark);
+    font-weight: 400;
+}
