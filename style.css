@@ -41,6 +41,11 @@ body {
     color: #000000;
 }
 
+.nav--items > a.active {
+    color: #FF6464;
+    font-weight: 500;
+}
+
 /* LANDING PAGE SECTION */
 .landing--page--container {
     display: flex;

@@ -10,10 +10,10 @@
     <!-- NAVBAR -->
     <nav class="nav--parent--container">
         <ul class="nav--child--container">
-            <li class="nav--items"><a href="#">Home</a></li>
-            <li class="nav--items"><a href="#">Works</a></li>
-            <li class="nav--items"><a href="#">Blog</a></li>
-            <li class="nav--items"><a href="#">Contact</a></li>
+            <li class="nav--items"><a class="active" onclick="setActiveNavItem(0)" href="#">Home</a></li>
+            <li class="nav--items"><a onclick="setActiveNavItem(1)" href="#">Works</a></li>
+            <li class="nav--items"><a onclick="setActiveNavItem(2)" href="#">Blog</a></li>
+            <li class="nav--items"><a onclick="setActiveNavItem(3)" href="#">Contact</a></li>
         </ul>
         <img src="img/menu.png" alt="Menu">
     </nav>
@@ -130,5 +130,7 @@
         </div>
         <p>Copyright ©2020 All rights reserved </p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
