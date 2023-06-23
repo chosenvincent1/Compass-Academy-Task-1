@@ -20,7 +20,7 @@ body {
 }
 .nav--parent--container {
     width: 100%;
-    padding: 38px 40px;
+    padding: 30px 40px;
     margin-bottom: 100px;
 }
 .nav--parent--container > img {
@@ -40,7 +40,6 @@ body {
     font-weight: 500;
     color: #000000;
 }
-
 .nav--items > a.active {
     color: #FF6464;
     font-weight: 500;
@@ -296,7 +295,7 @@ body {
 
     /* FEATURED WORKS SECTION */
     .featured--works--container {
-        padding: 25px 10px;
+        padding: 0px 10px;
     }
     .featured--works--container > h2 {
         text-align: center;

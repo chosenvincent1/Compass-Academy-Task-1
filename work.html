@@ -3,74 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="work.css">
+    <title>Works</title>
 </head>
-<body> 
-    <!-- NAVBAR -->
+<body>
+    <!-- NAVBAR SECTION -->
     <nav class="nav--parent--container">
         <ul class="nav--child--container">
-            <li class="nav--items"><a class="active" onclick="setActiveNavItem(0)" href="#">Home</a></li>
-            <li class="nav--items"><a onclick="setActiveNavItem(1)" href="work.html">Works</a></li>
+            <li class="nav--items"><a onclick="setActiveNavItem(0)" href="#">Home</a></li>
+            <li class="nav--items"><a class="active" onclick="setActiveNavItem(1)" href="work.html">Works</a></li>
             <li class="nav--items"><a onclick="setActiveNavItem(2)" href="#">Blog</a></li>
             <li class="nav--items"><a onclick="setActiveNavItem(3)" href="#">Contact</a></li>
         </ul>
         <img src="img/menu.png" alt="Menu">
     </nav>
 
-    <!-- LANDING PAGE -->
-    <section class="landing--page--container">
-        <div class="landing--text--container">
-            <h1>Hi, I am John, Creative Technologist</h1>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-            <button>Download Resume</button>
-        </div>
-
-        <div class="landing--image--container">
-            <img src="img/landing-img.png" alt="John Image">
-        </div>
-    </section>
-
-    <!-- RECENT POST -->
-    <section class="recent--post--container">
-        <div class="recent--post--text">
-            <p class="recent--post">Recent Post</p>
-            <p class="view--all">View All</p>
-        </div>
-
-        <div class="post--card--container">
-            <div class="post--card">
-                <h2>Making a design system from scratch</h2>
-                <div class="post--date--container">
-                    <p class="date">12 Feb 2020</p>
-                    <p class="topic">Design, Pattern</p>
-                </div>
-                <p class="post--text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-            </div>
-
-            <div class="post--card">
-                <h2>Creating pixel perfect icons in Figma</h2>
-                <div class="post--date--container">
-                    <p class="date">12 Feb 2020</p>
-                    <p class="topic">Figma, Icon Design</p>
-                </div>
-                <p class="post--text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-            </div>
-
-            <div class="post--card">
-                <h2>Trending resources at Figma Store</h2>
-                <div class="post--date--container">
-                    <p class="date">12 Feb 2020</p>
-                    <p class="topic">Figma Store</p>
-                </div>
-                <p class="post--text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- FEATURED WORK -->
+    <!-- WORKS SECTION -->
     <section class="featured--works--container">
-        <h2>Featured Works</h2>
+        <h2>Works</h2>
         <div class="featured--text--img--container">
             <div class="featured--img--container">
                 <img src="img/design-dashboard-img.png" alt="Design Dashboard">
@@ -118,6 +68,22 @@
             </div>
             
         </div>
+
+        <div class="featured--text--img--container">
+            <div class="featured--img--container">
+                <img src="img/designing-landing-page.png" alt="Desining Landing Page">
+            </div>
+
+            <div class="featured--text--container">
+                <h2>Designing Landing Pages</h2>
+                <div class="date-text-container">
+                    <p class="date">2020</p>
+                    <p class="title">Website</p>
+                </div>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            </div>
+            
+        </div>
     </section>
 
     <!-- FOOTER -->
@@ -130,7 +96,5 @@
         </div>
         <p>Copyright ©2020 All rights reserved </p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
